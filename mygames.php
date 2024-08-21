@@ -346,8 +346,7 @@ $games_result = $DBConnect->query("SELECT title, game_system, location FROM game
 <hr>
 
 <script>
-const OMDB_API_KEY = "aeb6e632";
-const RAWG_API_KEY = "e5642732b1c44341bddda23362078348";
+const RAWG_API_KEY = "your_key_here";
 
 function addToCollection() {
     const title = document.getElementById('insert-title').value;
