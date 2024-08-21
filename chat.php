@@ -12,7 +12,7 @@ if (empty($message)) {
     exit;
 }
 
-$apiKey = 'AIzaSyBgO8noquDwoAZwLqDFQ_HbMmGi1Ovk1HM';
+$apiKey = 'your_key_here';
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta2/models/chat-bison-001:generateMessage?key=$apiKey";
 
 $data = [
