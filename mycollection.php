@@ -399,9 +399,9 @@ $books_result = $DBConnect->query("SELECT title, location FROM books WHERE user_
 <hr>
 
 <script>
-const OMDB_API_KEY = "aeb6e632";
-const GOOGLE_BOOKS_API_KEY = "AIzaSyBc9QFPe_puCSeSefrQA-aoILc36VXmRKQ";
-const RAWG_API_KEY = "e5642732b1c44341bddda23362078348";
+const OMDB_API_KEY = "your_key_here";
+const GOOGLE_BOOKS_API_KEY = "Your_key_here";
+const RAWG_API_KEY = "Your_key_here";
 
 function addToCollection() {
     const multimediaType = document.getElementById('multimedia-type').value;
