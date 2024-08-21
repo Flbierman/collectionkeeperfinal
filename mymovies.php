@@ -337,7 +337,7 @@ $movies_result = $DBConnect->query("SELECT title, location FROM movies WHERE use
 <hr>
 
 <script>
-const OMDB_API_KEY = "aeb6e632";
+const OMDB_API_KEY = "your_key_here";
 
 function showDetails(title, location) {
     const normalizedTitle = title.replace(/[^\w\s]/gi, '').trim();
